@@ -3,3 +3,17 @@
 *.suo
 *.filters
 *.user
+*.vcxproj
+*.vcxproj
+*.opensdf
+feedSpamer/GeneratedFiles/Debug/moc_mainwindow.cpp
+feedSpamer/GeneratedFiles/qrc_mainwindow.cpp
+feedSpamer/GeneratedFiles/ui_mainwindow.h
+feedSpamer/StdAfx.h.cpp
+feedSpamer/Win32/Debug/CL.read.1.tlog
+*.tlog
+feedSpamer/Win32/Debug/feedSpamer.lastbuildstate
+*.log
+*.unsuccessfulbuild
+*.cache
+*.pdb
