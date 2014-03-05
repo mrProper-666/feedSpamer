@@ -14,3 +14,5 @@ feedSpamer/StdAfx.h.cpp
 *.unsuccessfulbuild
 *.cache
 *.pdb
+*.ilk
+*.exe
