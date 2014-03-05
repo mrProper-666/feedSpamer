@@ -6,13 +6,10 @@
 *.vcxproj
 *.vcxproj
 *.opensdf
-feedSpamer/GeneratedFiles/Debug/moc_mainwindow.cpp
-feedSpamer/GeneratedFiles/qrc_mainwindow.cpp
-feedSpamer/GeneratedFiles/ui_mainwindow.h
+*/GeneratedFiles/*
 feedSpamer/StdAfx.h.cpp
-feedSpamer/Win32/Debug/CL.read.1.tlog
 *.tlog
-feedSpamer/Win32/Debug/feedSpamer.lastbuildstate
+*/Win32/*
 *.log
 *.unsuccessfulbuild
 *.cache
