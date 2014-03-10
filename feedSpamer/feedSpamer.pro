@@ -4,11 +4,21 @@ TEMPLATE = app
 
 TARGET = feedSpamer
 
-HEADERS += ./mainwindow.h
+DESTDIR = ../bin
 
-SOURCES += ./main.cpp \
-    ./mainwindow.cpp
+HEADERS += ./src/mainwindow.h \
+	./src/addcampaigndialog.h \
+	./src/campaignconfig.h \
+	./src/defines.h
 
-FORMS += ./mainwindow.ui
+SOURCES += ./src/main.cpp \
+    ./src/mainwindow.cpp \
+    ./src/addcampaigndialog.cpp \
+    ./src/campaignconfig.cpp
 
-RESOURCES += mainwindow.qrc
+FORMS += ./ui/mainwindow.ui \
+	./ui/addcampaigndialog.ui
+
+RESOURCES += ./res/mainwindow.qrc
+
+TRANSLATIONS += ./ts/feedspamer_ru.ts

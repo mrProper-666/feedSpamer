@@ -168,7 +168,7 @@
     <addaction name="actionAdd_Campaign"/>
     <addaction name="actionRemove_Campaign"/>
     <addaction name="separator"/>
-    <addaction name="actionCampaign_reposr"/>
+    <addaction name="actionCampaign_report"/>
    </widget>
    <widget class="QMenu" name="menuSocial">
     <property name="title">
@@ -226,11 +226,6 @@
     <string>Remove social</string>
    </property>
   </action>
-  <action name="actionCampaign_reposr">
-   <property name="text">
-    <string>Campaign report</string>
-   </property>
-  </action>
   <action name="actionSocial_configuration">
    <property name="text">
     <string>Social configuration</string>
@@ -246,10 +241,15 @@
     <string>Exit</string>
    </property>
   </action>
+  <action name="actionCampaign_report">
+   <property name="text">
+    <string>Campaign report</string>
+   </property>
+  </action>
  </widget>
  <layoutdefault spacing="6" margin="11"/>
  <resources>
-  <include location="mainwindow.qrc"/>
+  <include location="../res/mainwindow.qrc"/>
  </resources>
  <connections/>
 </ui>

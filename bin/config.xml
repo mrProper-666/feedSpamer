@@ -1,0 +1,7 @@
+<?xml version="1.1" encoding="UTF-8" ?>
+<campaigns>
+	<campaign id="0" name="test" feedUrl="http://example.com/feed" delay="30" delayMes="min" onFeedUpdate="post" />
+	<campaign id="1" name="test1" feedUrl="http://example.com/feed1" delay="31" delayMes="sec" onFeedUpdate="request" />
+	<campaign id="2" name="test2" feedUrl="http://example.com/feed1" delay="31" delayMes="hour" onFeedUpdate="none" />
+	<campaign id="3" name="test3" feedUrl="http://example.com/feed3" delay="33" delayMes="min" onFeedUpdate="post" />
+</campaigns>
